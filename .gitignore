@@ -1,0 +1,14 @@
+*.user
+*.vpj
+*.vpw
+*.vpwhistxml
+*.vtg
+vcxproj/.vs/
+*.obj
+*.recipe
+*.ilk
+*.log
+*.pdb
+*.idb
+*.tlog
+flcjr.vcxproj.FileListAbsolute.txt
