@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{fed071a5-e8f5-4915-acaa-62340d3e9099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\flic">
+      <UniqueIdentifier>{b443726e-06b3-4d94-b1e0-da0cf46cf78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\flc_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\flic\decoder.cpp">
+      <Filter>libs\flic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\flic\encoder.cpp">
+      <Filter>libs\flic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\flic\stdio.cpp">
+      <Filter>libs\flic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\flcjr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\flc_file.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\common\bctypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\flic\flic.h">
+      <Filter>libs\flic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\flic\flic_details.h">
+      <Filter>libs\flic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
